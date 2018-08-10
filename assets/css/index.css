@@ -1,0 +1,265 @@
+body{
+    margin-top: 0px;
+    height: 1000px;
+    background-image: url(../images/congruent_pentagon.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    padding: 5px;
+    z-index: 0;
+}
+.top-bar{
+    position: fixed;
+    display: block;
+    background-color: #ffffff;
+    width: 100%;
+    height: 12%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    z-index: 1;
+}
+.main-box{
+    position: relative;
+    width: 960px;
+    max-height: 80%;
+    display: block;
+    background-color: #ffffff;
+    margin: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    border-style: solid;
+    border-color:#dddddd;
+    border-width: 1px;
+
+}
+
+.syd-image{
+    position: relative;
+    padding: 15px;
+    float: left;
+    width: 538px;
+    height: 320px;
+}
+
+.links{
+    float: right;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 100%;
+}
+
+.link-about{
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    width: 18%;
+    height: 20%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+    border-right-width: 1px;
+    border-right-color: #cccccc;
+}
+
+.link-portfolio{
+    left: 20%;
+    margin: auto;
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    width: 25%;
+    height: 20%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+    border-top-width: 5px;
+    border-color: white;
+    border-right-width: 1px;
+    border-right-color: #cccccc;
+}
+
+.link-contact{
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    width: 18%;
+    height: 20%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+}
+
+.name-box{
+    position: relative;
+    bottom: -1px;
+    width: 30%;
+    float: left;
+    left: 18.3%;
+    background-color: #4aaaa5;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.about{
+    color: #4aaaa5; 
+    width: 95%;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 0px;
+    border-bottom-width: 2px;
+    margin: auto;
+}
+
+.foot{
+    position: relative;
+    height: 30px;
+    width: 101.2%;
+    background-color: #666666;
+    border-style: solid;
+    border-color:#4aaaa5;
+    border-width: 0px;
+    border-top-width: 5px;
+    color: white;
+    bottom: -15px;
+    left: -10px;
+    right: -11px;
+}
+
+.cr{
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
+ 
+@media screen and (max-width: 980px){
+    .name-box{
+        left: 50px;
+        bottom: 0px;
+        width: 40%;
+    }
+
+    .main-box{
+        left: 50px;
+        width: 60%;
+        margin-left: 0;
+        margin-right: 0;
+        top: 30px;
+    }
+
+    .syd-image{
+        width: 50%;
+        height: 80%;
+    }
+
+    .top-bar{
+        height: 100px;
+    }
+} 
+
+@media screen and (max-width: 768px){
+    .main-box{
+        left: 0px;
+        width: 98%;
+        top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    .syd-image{
+        width: 90%;
+        float: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-box{
+        top: 100px;
+    }
+
+    .name-box{
+        box-sizing: border-box;
+        width: 100%;
+        left: 0px;
+        height: 50%;
+        top: -22px;
+        float: none;
+    }
+    
+    .link-about{
+        left: 0;
+        position: absolute;
+        background-color: transparent;
+        width: 33%;
+        height: 20%;
+        bottom: 40px;
+        text-align: center;
+        border-style: none;
+        border-top-width: 0px;
+        border-color: none;
+        border-right-width: 0px;
+        border-right-color: none;
+    }
+
+    .link-portfolio{
+        left: 33%;
+        margin: 0;
+        position: relative;
+        background-color: transparent;
+        width: 33%;
+        height: 20%;
+        text-align: center;
+        border-style: none;
+        border-top-width: 0;
+        border-color: none;
+        border-top-width: 0;
+        border-color: none;
+        border-right-width: 0;
+        border-right-color: none;
+    }
+
+    .link-contact{
+        left: 66%;
+        margin: 0;
+        position: relative;
+        background-color: transparent;
+        width: 33%;
+        height: 20%;
+        text-align: center;
+        border-style: none;
+        border-top-width: 0;
+        border-color: none;
+    }
+
+    .links{
+        float: none;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 0;
+    }
+
+}
+
