@@ -5,9 +5,12 @@
 
 .project{
     position: relative;
+    margin: 30px;
+}
+
+.pic-size{
     width: 375px;
     height: 300px;
-    margin: 30px;
 }
 
 .banner{
@@ -28,4 +31,26 @@
     height: 100%;
     position: absolute;
     top: 18px;
+}
+
+@media screen and (max-width: 960px){
+    .pic-size{
+        width: 50%;
+        height: 50%;
+    }
+
+    .project{
+        width: 25%;
+        height: 50%;
+    }
+
+    .banner{
+        width: 50%;
+        height: 20%;
+        font-size: 14px;
+    }
+
+    .b-text{
+        top: 0;
+    }
 }
