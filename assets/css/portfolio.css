@@ -35,8 +35,8 @@
 
 @media screen and (max-width: 960px){
     .pic-size{
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 60%;
     }
 
     .project{
@@ -45,9 +45,9 @@
     }
 
     .banner{
-        width: 50%;
+        width: 70%;
         height: 20%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .b-text{
